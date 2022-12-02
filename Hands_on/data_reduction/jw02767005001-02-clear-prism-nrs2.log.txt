@@ -1,0 +1,26 @@
+# (2022-12-01 10:48:13.733)
+msaexp.NirspecPipeline: Initialize jw02767005001-02-clear-prism-nrs2
+msaexp.NirspecPipeline: jw02767005001_03105_00002_nrs2_rate.fits
+msaexp.NirspecPipeline: jw02767005001_03105_00003_nrs2_rate.fits
+msaexp.NirspecPipeline: jw02767005001_03105_00004_nrs2_rate.fits
+# (2022-12-01 10:48:13.741)
+msaexp.preprocess : set CRDS_CTX=jwst_1007.pmap
+# (2022-12-01 10:48:13.741)
+
+prep.mask_snowballs(**{'visit': {'product': 'jw02767005001-02-clear-prism-nrs2', 'files': ['jw02767005001_03105_00002_nrs2_rate.fits', 'jw02767005001_03105_00003_nrs2_rate.fits', 'jw02767005001_03105_00004_nrs2_rate.fits']}, 'snowball_erode': 8, 'snowball_dilate': 24, 'mask_bit': 1024, 'instruments': ['NIRSPEC'], 'unset4': False, 'kwargs': {}})
+
+Snowball mask: jw02767005001_03105_00002_nrs2_rate.fits  N=  9(f=0.37%)
+Snowball mask: jw02767005001_03105_00003_nrs2_rate.fits  N= 14(f=0.60%)
+Snowball mask: jw02767005001_03105_00004_nrs2_rate.fits  N=  9(f=1.06%)
+exposure_oneoverf_correction: jw02767005001_03105_00002_nrs2_rate.fits axis=0 deg_pix=256
+exposure_oneoverf_correction: jw02767005001_03105_00002_nrs2_rate.fits apply to file
+exposure_oneoverf_correction: jw02767005001_03105_00003_nrs2_rate.fits axis=0 deg_pix=256
+exposure_oneoverf_correction: jw02767005001_03105_00003_nrs2_rate.fits apply to file
+exposure_oneoverf_correction: jw02767005001_03105_00004_nrs2_rate.fits axis=0 deg_pix=256
+exposure_oneoverf_correction: jw02767005001_03105_00004_nrs2_rate.fits apply to file
+# (2022-12-01 10:48:42.400)
+msaexp.preprocess : bias level jw02767005001_03105_00002_nrs2_rate.fits = 0.0019
+# (2022-12-01 10:48:42.832)
+msaexp.preprocess : bias level jw02767005001_03105_00003_nrs2_rate.fits = -0.0007
+# (2022-12-01 10:48:43.269)
+msaexp.preprocess : bias level jw02767005001_03105_00004_nrs2_rate.fits = 0.0004
